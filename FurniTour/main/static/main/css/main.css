@@ -1,0 +1,250 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  overflow-x: hidden;
+  background-color: rgba(232, 232, 232, 1);
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+.main {
+  background-color: rgba(233, 234, 237, 1);
+  padding: 18px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.header {
+  margin-bottom: 17px;
+  margin-left: 72px;
+  display: flex;
+  align-items: flex-start;
+}
+.top-logo {
+  width: 347px;
+  height: 79px;
+  margin-right: 231px;
+}
+.top-links {
+  display: flex;
+  align-items: flex-start;
+}
+.top-btn {
+  width: 165px;
+  font-family: "Alumni Sans";
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65px;
+  color: rgba(143, 153, 173, 1);
+  text-align: center;
+  margin-right: 100px;
+  letter-spacing: 3.24px;
+}
+.top-btn-two {
+  font-family: "Alumni Sans";
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65px;
+  color: rgba(143, 153, 173, 1);
+  text-align: center;
+  letter-spacing: 3.24px;
+}
+.top-btn-two:not(:last-of-type) {
+  margin-right: 100px;
+}
+.num-1626788837-18-kartinkin-com-p-fon-rvanay {
+  width: 1920px;
+  height: 488px;
+  margin-bottom: 55px;
+}
+.content-main {
+  margin-bottom: 34px;
+  display: flex;
+  align-items: center;
+}
+.removal-2 {
+  width: 701.19px;
+  height: 561px;
+  margin-right: 69.81px;
+}
+.text {
+  height: 521px;
+  width: 1077px;
+  font-family: "Alumni Sans";
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 53px;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  letter-spacing: 4.4px;
+}
+.content-second {
+  margin-bottom: 34px;
+  margin-left: 54px;
+  display: flex;
+  align-items: flex-start;
+}
+.text-two {
+  height: 521px;
+  width: 1049px;
+  font-family: "Alumni Sans";
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 53px;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 12px;
+  margin-right: 93px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  letter-spacing: 4.4px;
+}
+.removal-1 {
+  width: 724px;
+  height: 533px;
+}
+.footer {
+  background-color: rgba(217, 217, 217, 1);
+  padding: 15px 55px 16px 99px;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-3 {
+  margin-right: 332px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ccylki {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 2.4px;
+}
+.o-nas {
+  width: 176px;
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 2.4px;
+}
+.glavnaja {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 2.4px;
+}
+.social-lincs {
+  margin-top: 4px;
+  margin-right: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socials {
+  margin-bottom: 1.71px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  height: 48px;
+  width: 287px;
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.29px;
+  letter-spacing: 1.2px;
+}
+.frame-2 {
+  width: 438px;
+  height: 136px;
+}
+.copyright {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.frame-1 {
+  margin-top: 19px;
+  padding: 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-two {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 2px;
+  letter-spacing: 1.2px;
+}
+.number {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.number:not(:last-of-type) {
+  margin-bottom: 2px;
+}
+.email {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 2px;
+  letter-spacing: 1.2px;
+}

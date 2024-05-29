@@ -1,0 +1,333 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    overflow-x: hidden;
+    background-color: rgba(232, 232, 232, 1);
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.about-tour {
+  background-color: rgba(233, 234, 237, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  background-color: rgba(217, 217, 217, 1);
+  margin-bottom: 86px;
+  padding: 18px 655px 15px 72px;
+  display: flex;
+  align-items: flex-start;
+}
+.top-logo {
+  width: 347px;
+  height: 79px;
+  margin-right: 235px;
+}
+.top-links {
+  display: flex;
+  align-items: flex-start;
+}
+.top-btn {
+  width: 157px;
+  font-family: "Alumni Sans";
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65px;
+  color: rgba(143, 153, 173, 1);
+  text-align: center;
+  margin-right: 100px;
+  letter-spacing: 3.24px;
+}
+.top-btn-two {
+  font-family: "Alumni Sans";
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65px;
+  color: rgba(143, 153, 173, 1);
+  text-align: center;
+  letter-spacing: 3.24px;
+}
+.top-btn-two:not(:last-of-type) {
+  margin-right: 100px;
+}
+.title {
+  width: 1215px;
+  font-family: "Rubik One";
+  font-size: 82px;
+  font-weight: 400;
+  line-height: 101px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 84px;
+  letter-spacing: 4.92px;
+}
+.top-content {
+  margin-bottom: 141px;
+  display: flex;
+  align-items: flex-start;
+}
+.image {
+  width: 603px;
+  height: 459px;
+  margin-right: 500px;
+  border-radius: 30px;
+}
+.tour-main-info {
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tour-title {
+  max-width: 1073px;
+  font-family: "Inter";
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 70px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 51px;
+  letter-spacing: 3.48px;
+}
+.rate {
+  display: flex;
+  align-items: flex-start;
+}
+.rate:not(:last-of-type) {
+  margin-bottom: 65px;
+}
+.rejting {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  color: rgba(0, 0, 0, 1);
+  margin-right: 12px;
+  letter-spacing: 2.88px;
+}
+.num-4-7-5 {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 2.88px;
+}
+.cena-ot {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  color: rgba(0, 0, 0, 1);
+  letter-spacing: 2.88px;
+}
+.content {
+  margin-bottom: 89px;
+  display: flex;
+  align-items: flex-start;
+}
+.left-column {
+  margin-top: 77px;
+  margin-right: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.vremja-v-puti {
+  width: 423px;
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 17px;
+  margin-left: 2px;
+  letter-spacing: 2.88px;
+}
+.vremja-jekskursij {
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 17px;
+  margin-left: 2px;
+  letter-spacing: 2.88px;
+}
+.image-2 {
+  width: 740px;
+  height: 504px;
+  box-shadow: 4px 6px 4px 0 rgba(0, 0, 0, 0.25);
+  border: 4px solid rgba(193, 193, 193, 1);
+  border-radius: 44px;
+}
+.buy-btn {
+  background-color: rgba(217, 217, 217, 1);
+  margin-right: 282px;
+  border-radius: 17px;
+  padding: 16px 109px 15px 110px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  display: flex;
+  align-items: center;
+}
+.oplatit {
+  font-family: "Alumni Sans";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 3.84px;
+}
+.buy-btn-two {
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 17px;
+  padding: 16px 100px 15px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  display: flex;
+  align-items: center;
+}
+.footer {
+  background-color: rgba(217, 217, 217, 1);
+  padding: 16px 55px 15px 192px;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-3 {
+  margin-right: 290px;
+  padding: 0 2.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ccylki {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 39px;
+  letter-spacing: 2.4px;
+}
+.o-nas {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 2.4px;
+}
+.o-nas:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+.social-lincs {
+  margin-top: 3px;
+  margin-right: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socials {
+  margin-bottom: 1.71px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nashi-socseti {
+  height: 48px;
+  width: 259px;
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.29px;
+  letter-spacing: 1.2px;
+}
+.frame-2 {
+  width: 438px;
+  height: 136px;
+}
+.num-2010-2024-ooo-furni-tur-vse-prava-za {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.frame-1 {
+  margin-top: 18px;
+  padding: 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.svjaz-s-nami {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 2px;
+  letter-spacing: 1.2px;
+}
+.num-7-998-423-97-88 {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.num-7-998-423-97-88:not(:last-of-type) {
+  margin-bottom: 2px;
+}
+.furnitour-com {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 2px;
+  letter-spacing: 1.2px;
+}

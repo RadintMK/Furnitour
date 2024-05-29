@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={% static "main/css/tours.css" %}>
+    <title>Главная</title>
+</head>
+<body>
+  <div class="tours">
+    <div class="header">
+      <a href="{% url 'home' %}">
+        <img
+            alt="ФурниТур"
+            class="top-logo"
+            src="{% static 'main/img/logo.png' %}"
+        />
+      </a>
+      <div class="top-links">
+        <a href="{% url 'aboutus' %}" class="top-btn">О нас</a>
+        <a href="{% url 'tours' %}" class="top-btn-two">Туры</a>
+        <a href="{% url 'cart' %}" class="top-btn-two">Корзина</a>
+      </div>
+    </div>
+    <p class="title">Туры</p>
+    {% for tour in tours %}
+    <div class="content-tour">
+      <img
+        alt=""
+        class="img-tour"
+        src="{{ tour.image.url }}"
+      />
+      <div class="flex-wrapper-one">
+        <p class="title-tour">{{ tour.title }}</p>
+        <div class="content-time">
+          <img
+            alt=""
+            class="clock-1"
+            src="{% static 'main/img/clock.png' %}"
+          />
+          <p class="num-60-hurs">{{ tour.travel_time }} часов</p>
+        </div>
+        <div class="content-trevel">
+          <img
+            alt=""
+            class="clock-1"
+            src="{% static 'main/img/transport.png' %}"
+          />
+          <p class="avtobus">{{ tour.transport_included }}</p>
+        </div>
+        <p class="cost">от {{ tour.price_from }}₽</p>
+      </div>
+      <div class="info-btn"><a href="{% url 'tourInfo' tour.title %}" class="o-ture">О туре</a></div>
+    </div>
+    {% endfor %}
+    <div class="footer">
+      <div class="frame-3">
+        <p class="ccylki">Ccылки:</p>
+        <a href="{% url 'aboutus' %}" class="o-nas">О нас</a>
+        <a href="{% url 'home' %}" class="o-nas">Главная</a>
+        <a href="{% url 'tours' %}" class="o-nas">Туры</a>
+        <a href="{% url 'cart' %}" class="o-nas">Корзина</a>
+      </div>
+      <div class="social-lincs">
+        <div class="socials">
+          <p class="nashi-socseti">Наши соцсети</p>
+          <a href="https://vk.com" target="_blank">
+            <img
+                alt=""
+                class="frame-2-two"
+                src="{% static 'main/img/communication.png' %}"
+            />
+        </a>
+        </div>
+        <p class="num-2010-2024-ooo-furni-tur-vse-prava-za">
+          © 2010-2024 ООО “Фурни Тур” Все права защищены.
+        </p>
+      </div>
+      <div class="frame-1">
+        <p class="svjaz-s-nami">Связь с нами:</p>
+        <p class="num-7-998-423-97-88">7(998)423-97-88</p>
+        <p class="furnitour-com">furnitour&#64;gmail.com</p>
+        <p class="num-7-998-423-97-88">
+          г. Москва, Октябрьская ул., д. 16
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

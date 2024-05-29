@@ -1,0 +1,97 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={% static "main/css/main.css" %}>
+    <title>Главная</title>
+</head>
+<body>
+  <div class="main">
+    <div class="header">
+      <a href="{% url 'home' %}">
+        <img
+            alt="ФурниТур"
+            class="top-logo"
+            src="{% static 'main/img/logo.png' %}"
+        />
+      </a>
+      <div class="top-links">
+        <a href="{% url 'aboutus' %}" class="top-btn">О нас</a>
+        <a href="{% url 'tours' %}" class="top-btn-two">Туры</a>
+        <a href="{% url 'cart' %}" class="top-btn-two">Корзина</a>
+      </div>
+    </div>
+    <img
+      alt=""
+      class="num-1626788837-18-kartinkin-com-p-fon-rvanay"
+      src="{% static 'main/img/background.png' %}"
+    />
+    <div class="content-main">
+      <img
+        alt=""
+        class="removal-2"
+        src="{% static 'main/img/leftimg.png' %}"
+      />
+      <p class="text">
+        Добро пожаловать в мир самых необычных путешествий для
+        ценителей уникального дизайна и экстравагантной
+        мебели! Наше туристическое агентство специализируется
+        на создании неповторимых путешествий, где вы сможете
+        окунуться в увлекательный мир необычной мебели и
+        дизайнерских шедевров. Путешествуйте с нами и
+        открывайте новые горизонты в мире дизайна и комфорта!
+      </p>
+    </div>
+    <div class="content-second">
+      <p class="text-two">
+        Исследуйте удивительные места, где искусство
+        встречается с функциональностью, оставляя незабываемые
+        впечатления. Наши эксперты подберут для вас самые
+        уникальные маршруты, где каждая остановка станет новым
+        открытием в мире необычной мебели. Доверьте нам свои
+        путешествия и погрузитесь в увлекательный мир дизайна,
+        где каждый предмет расскажет свою уникальную историю.
+      </p>
+      <img
+        alt=""
+        class="removal-1"
+        src="{% static 'main/img/rightimg.png' %}"
+      />
+    </div>
+    <div class="footer">
+      <div class="frame-3">
+        <p class="ccylki">Ccылки:</p>
+        <a href="{% url 'aboutus' %}" class="o-nas">О нас</a>
+        <a href="{% url 'home' %}" class="glavnaja">Главная</a>
+        <a href="{% url 'tours' %}" class="glavnaja">Туры</a>
+        <a href="{% url 'cart' %}" class="glavnaja">Корзина</a>
+      </div>
+      <div class="social-lincs">
+        <div class="socials">
+          <p class="title">Наши соцсети</p>
+          <a href="https://vk.com" target="_blank">
+            <img
+                alt="VK Group"
+                class="frame-2"
+                src="{% static 'main/img/communication.png' %}"
+            />
+        </a>
+        </div>
+        <p class="copyright">
+          © 2010-2024 ООО “Фурни Тур” Все права защищены.
+        </p>
+      </div>
+      <div class="frame-1">
+        <p class="title-two">Связь с нами:</p>
+        <p class="number">7(998)423-97-88</p>
+        <p class="email">furnitour&#64;gmail.com</p>
+        <p class="number">
+          г. Москва, Октябрьская ул., д. 16
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={% static "main/css/tourInfo.css" %}>
+    <title>Главная</title>
+</head>
+<body>
+  <div class="about-tour">
+    <div class="header">
+      <a href="{% url 'home' %}">
+        <img
+            alt="ФурниТур"
+            class="top-logo"
+            src="{% static 'main/img/logo.png' %}"
+        />
+      </a>
+      <div class="top-links">
+        <a href="{% url 'aboutus' %}" class="top-btn">О нас</a>
+        <a href="{% url 'tours' %}" class="top-btn-two">Туры</a>
+        <a href="{% url 'cart' %}" class="top-btn-two">Корзина</a>
+      </div>
+    </div>
+    <p class="title">Информация о туре</p>
+    <div class="top-content">
+        <img src="{{ tour.image.url }}" alt="" class="image">
+      <div class="tour-main-info">
+        <p class="tour-title">
+          {{ tour.title }}
+        </p>
+        <div class="rate">
+          <p class="rejting">Рейтинг: {{ tour.rating }}</p>
+        </div>
+        <div class="rate">
+          <p class="cena-ot">Цена: {{ tour.price_from }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="left-column">
+        <p class="vremja-v-puti">Время в пути: {{ tour.travel_time }}</p>
+        <p class="vremja-jekskursij">Время экскурсий: {{ tour.excursion_time }}</p>
+        <p class="vremja-jekskursij">Количество остановок:{{ tour.stops_count }}</p>
+        <p class="vremja-jekskursij">Питание: {{ tour.food_provided }}</p>
+        <p class="cena-ot">Транспорт: {{ tour.transport_included }}</p>
+      </div>
+      <img
+        alt=""
+        class="image-2"
+        src="{% static 'main/img/map.png' %}"
+      />
+    </div>
+    <div class="content">
+      <div class="buy-btn">
+        <a href="{% url 'pay' tour.title %}" class="oplatit">Оплатить</a>
+      </div>
+      <div class="buy-btn-two" data-tour-name="{{ tour.title }}">
+        <p class="oplatit">В корзину</p>
+    </div>
+    </div>
+    <div class="footer">
+      <div class="frame-3">
+        <p class="ccylki">Ccылки:</p>
+        <a href="{% url 'aboutus' %}" class="o-nas">О нас</a>
+        <a href="{% url 'home' %}" class="o-nas">Главная</a>
+        <a href="{% url 'tours' %}" class="o-nas">Туры</a>
+        <a href="{% url 'cart' %}" class="o-nas">Корзина</a>
+      </div>
+      <div class="social-lincs">
+        <div class="socials">
+          <p class="nashi-socseti">Наши соцсети</p>
+          <a href="https://vk.com" target="_blank">
+            <img
+                alt=""
+                class="frame-2-two"
+                src="{% static 'main/img/communication.png' %}"
+            />
+        </a>
+        </div>
+        <p class="num-2010-2024-ooo-furni-tur-vse-prava-za">
+          © 2010-2024 ООО “Фурни Тур” Все права защищены.
+        </p>
+      </div>
+      <div class="frame-1">
+        <p class="svjaz-s-nami">Связь с нами:</p>
+        <p class="num-7-998-423-97-88">7(998)423-97-88</p>
+        <p class="furnitour-com">furnitour&#64;gmail.com</p>
+        <p class="num-7-998-423-97-88">
+          г. Москва, Октябрьская ул., д. 16
+        </p>
+      </div>
+    </div>
+  </div>
+      <script src="{% static "main/js/tourInfo.js" %}"></script>
+</body>
+</html>

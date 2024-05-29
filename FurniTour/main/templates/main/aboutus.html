@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={% static "main/css/about.css" %}>
+    <title>О нас</title>
+</head>
+<body>
+  <div class="about-us">
+    <div class="header">
+      <a href="{% url 'home' %}">
+        <img
+            alt="ФурниТур"
+            class="top-logo"
+            src="{% static 'main/img/logo.png' %}"
+        />
+      </a>
+      <div class="top-links">
+        <a href="{% url 'aboutus' %}" class="top-btn">О нас</a>
+        <a href="{% url 'tours' %}" class="top-btn-two">Туры</a>
+        <a href="{% url 'cart' %}" class="top-btn-two">Корзина</a>
+      </div>
+    </div>
+    <p class="title">О нас</p>
+    <div class="content-map">
+      <p class="nashi-agentstva">Наши агентства</p>
+      <img
+        alt=""
+        class="image-1"
+        src="{% static 'main/img/map.png' %}"
+      />
+    </div>
+    <div class="content-communication">
+      <div class="socials">
+        <p class="nashi-socseti">Наши соцсети</p>
+        <a href="https://vk.com/your_group_name" target="_blank">
+          <img
+              alt="VK Group"
+              class="frame-2"
+              src="{% static 'main/img/communication.png' %}"
+          />
+      </a>
+      </div>
+      <div class="frame-4">
+        <p class="svjaz-s-nami">Связь с нами:</p>
+        <p class="num-7-998-423-97-88">7(998)423-97-88</p>
+        <p class="furnitour-com">furnitour&#64;gmail.com</p>
+        <p class="num-7-998-423-97-88">
+          г. Москва, Октябрьская ул., д. 16
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="frame-3">
+        <p class="ccylki">Ccылки:</p>
+        <a href="{% url 'aboutus' %}" class="o-nas">О нас</a>
+        <a href="{% url 'home' %}" class="o-nas">Главная</a>
+        <a href="{% url 'tours' %}" class="o-nas">Туры</a>
+        <a href="{% url 'cart' %}" class="o-nas">Корзина</a>
+      </div>
+      <div class="social-lincs">
+        <div class="socials-two">
+          <p class="nashi-socseti-two">Наши соцсети</p>
+          <a href="https://vk.com" target="_blank">
+            <img
+                alt=""
+                class="frame-2-two"
+                src="{% static 'main/img/communication.png' %}"
+            />
+        </a>
+        </div>
+        <p class="num-2010-2024-ooo-furni-tur-vse-prava-za">
+          © 2010-2024 ООО “Фурни Тур” Все права защищены.
+        </p>
+      </div>
+      <div class="frame-1">
+        <p class="svjaz-s-nami-two">Связь с нами:</p>
+        <p class="num-7-998-423-97-88-two">7(998)423-97-88</p>
+        <p class="furnitour-com-two">
+          furnitour&#64;gmail.com
+        </p>
+        <p class="num-7-998-423-97-88-two">
+          г. Москва, Октябрьская ул., д. 16
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

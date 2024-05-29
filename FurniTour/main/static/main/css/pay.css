@@ -1,0 +1,306 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    overflow-x: hidden;
+    background-color: rgba(232, 232, 232, 1);
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.payment {
+  background-color: rgba(233, 234, 237, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.header {
+  background-color: rgba(217, 217, 217, 1);
+  margin-bottom: 86px;
+  padding: 18px 649px 15px 72px;
+  display: flex;
+  align-items: flex-start;
+}
+.top-logo {
+  width: 347px;
+  height: 79px;
+  margin-right: 229px;
+}
+.top-links {
+  display: flex;
+  align-items: flex-start;
+}
+.top-btn {
+  width: 169px;
+  font-family: "Alumni Sans";
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65px;
+  color: rgba(143, 153, 173, 1);
+  text-align: center;
+  margin-right: 100px;
+  letter-spacing: 3.24px;
+}
+.top-btn-two {
+  font-family: "Alumni Sans";
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65px;
+  color: rgba(143, 153, 173, 1);
+  text-align: center;
+  letter-spacing: 3.24px;
+}
+.top-btn-two:not(:last-of-type) {
+  margin-right: 100px;
+}
+.title {
+  font-family: "Rubik One";
+  font-size: 82px;
+  font-weight: 400;
+  line-height: 101px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 22px;
+  margin-left: 785px;
+  letter-spacing: 4.92px;
+}
+.flex-wrapper-one {
+  margin-bottom: 23px;
+  padding: 0 0 0 246px;
+  display: flex;
+  align-items: flex-start;
+}
+.flex-wrapper-one input {
+  width: 500px;
+  height: 30px;
+  background-color: rgba(217, 217, 217, 1);
+  margin-right: 270px;
+  border-radius: 13px;
+  padding: 7px 0;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  display: flex;
+  align-items: center;
+}
+
+.cost {
+  margin-top: 14px;
+  padding: 0 84px 0 0;
+  display: flex;
+  align-items: flex-start;
+}
+.k-oplate {
+  font-family: "Alumni Sans";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-right: 16px;
+  letter-spacing: 2.88px;
+}
+.num-75-000 {
+  font-family: "Alumni Sans";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 2.88px;
+}
+.flex-wrapper-two {
+  margin-bottom: 238px;
+  padding: 0 0 0 246px;
+  display: flex;
+  align-items: flex-start;
+}
+.flex-wrapper-three {
+  margin-right: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flex-wrapper-three input {
+  width: 500px;
+  height: 30px;
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 13px;
+  padding: 7px 0;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  display: flex;
+  align-items: center;
+}
+.flex-wrapper-three input:not(:last-of-type) {
+  margin-bottom: 33px;
+}
+.nomer-telefona {
+  height: 48px;
+  width: 536px;
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2.4px;
+}
+.buy-btn {
+  background-color: rgba(217, 217, 217, 1);
+  margin-top: 34px;
+  border-radius: 17px;
+  padding: 16px 71px 15px 72px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25) inset;
+  display: flex;
+  align-items: center;
+}
+.oplatit {
+  width: 295px;
+  font-family: "Alumni Sans";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 3.84px;
+}
+.footer {
+  background-color: rgba(217, 217, 217, 1);
+  padding: 16px 55px 15px 192px;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-3 {
+  margin-right: 290px;
+  padding: 0 2.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ccylki {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 39px;
+  letter-spacing: 2.4px;
+}
+.o-nas {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 2.4px;
+}
+.o-nas:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+.social-lincs {
+  margin-top: 3px;
+  margin-right: 109px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socials {
+  margin-bottom: 1.71px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nashi-socseti {
+  height: 47px;
+  width: 280px;
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.37px;
+  letter-spacing: 1.2px;
+}
+.frame-2 {
+  width: 438px;
+  height: 136px;
+}
+.num-2010-2024-ooo-furni-tur-vse-prava-za {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.frame-1 {
+  margin-top: 18px;
+  padding: 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.svjaz-s-nami {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  margin-bottom: 2px;
+  letter-spacing: 1.2px;
+}
+.num-7-998-423-97-88 {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.num-7-998-423-97-88:not(:last-of-type) {
+  margin-bottom: 2px;
+}
+.furnitour-com {
+  font-family: "Alumni Sans";
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 2px;
+  letter-spacing: 1.2px;
+}

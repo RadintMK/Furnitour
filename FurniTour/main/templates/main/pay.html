@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={% static "main/css/pay.css" %}>
+    <title>Главная</title>
+</head>
+<body>
+  <div class="payment">
+    <div class="header">
+      <a href="{% url 'home' %}">
+        <img
+            alt="ФурниТур"
+            class="top-logo"
+            src="{% static 'main/img/logo.png' %}"
+        />
+      </a>
+      <div class="top-links">
+        <a href="{% url 'aboutus' %}" class="top-btn">О нас</a>
+        <a href="{% url 'tours' %}" class="top-btn-two">Туры</a>
+        <a href="{% url 'cart' %}" class="top-btn-two">Корзина</a>
+      </div>
+    </div>
+    <p class="title">Оплата</p>
+    <div class="flex-wrapper-one">
+        <input type="text" id="fio" name="fio" class="input" placeholder="ФИО">
+      <div class="cost">
+        <p class="k-oplate">К оплате: {{ cost }} ₽</p>
+      </div>
+    </div>
+    <div class="flex-wrapper-two">
+      <div class="flex-wrapper-three">
+          <input type="email" id="email" name="email" class="input-two" placeholder="E-mail">
+          <input type="tel" id="phone" name="phone" class="input-two" placeholder="Номер телефона">
+      </div>
+      <div class="buy-btn" id="buyBtn">
+        <p class="oplatit">Оплатить</p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="frame-3">
+        <p class="ccylki">Ccылки:</p>
+        <a href="{% url 'aboutus' %}" class="o-nas">О нас</a>
+        <a href="{% url 'home' %}" class="o-nas">Главная</a>
+        <a href="{% url 'tours' %}" class="o-nas">Туры</a>
+        <a href="{% url 'cart' %}" class="o-nas">Корзина</a>
+      </div>
+      <div class="social-lincs">
+        <div class="socials">
+          <p class="nashi-socseti">Наши соцсети</p>
+          <a href="https://vk.com" target="_blank">
+            <img
+                alt=""
+                class="frame-2-two"
+                src="{% static 'main/img/communication.png' %}"
+            />
+        </a>
+        </div>
+        <p class="num-2010-2024-ooo-furni-tur-vse-prava-za">
+          © 2010-2024 ООО “Фурни Тур” Все права защищены.
+        </p>
+      </div>
+      <div class="frame-1">
+        <p class="svjaz-s-nami">Связь с нами:</p>
+        <p class="num-7-998-423-97-88">7(998)423-97-88</p>
+        <p class="furnitour-com">furnitour&#64;gmail.com</p>
+        <p class="num-7-998-423-97-88">
+          г. Москва, Октябрьская ул., д. 16
+        </p>
+      </div>
+    </div>
+  </div>
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          var buyButton = document.getElementById('buyBtn');
+          buyButton.addEventListener('click', function(event) {
+            event.preventDefault();
+            window.location.href = '/';
+          });
+        });
+      </script>
+</body>
+</html>
